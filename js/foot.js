@@ -223,6 +223,8 @@ window.addEventListener("DOMContentLoaded", () => {
         'menu__item'
     ).render();
 
+
+    //forms
     const forms = document.querySelectorAll('form');
     const message = {
         loading: 'Загрузка...',
