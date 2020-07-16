@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
     // Timer
 
-    const deadline = '2020-05-11';
+    const deadline = '2020-08-11';
 
     function getTimeRemaining(endtime) {
         const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -157,8 +157,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
         changeToUAH() {
             this.price = this.price * this.transfer;
+           
         }
-
         render() {
             const element = document.createElement('div');
 
